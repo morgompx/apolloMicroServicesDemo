@@ -1,0 +1,27 @@
+{
+  "name": "apollomicroservicesdemo",
+  "version": "1.0.0",
+  "description": "Demo on how Apollo Federation can be used to create microservices",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgompx/apolloMicroServicesDemo.git"
+  },
+  "author": "David Morgan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/morgompx/apolloMicroServicesDemo/issues"
+  },
+  "homepage": "https://github.com/morgompx/apolloMicroServicesDemo#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
